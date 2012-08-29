@@ -1,0 +1,30 @@
+Para poder usar el github, deben tener una cuenta:
+
+* Tener el soft instalado en la pc (en linux "apt-get install git" como root)
+* Generar las claves RSA en su maquina y cargarlas en el sitio de github.com, si tienen dudas con eso miren los helps de la pagina o pregunten!!!
+* Pasarme su usuario asi los agrego al repo :)
+
+Una vez que este todo eso, lo "divertido":
+
+REPOSITORIO: git@github.com:duckmanito/AlgebraBienGracias.git
+
+COMANDOS:
+
+Para iniciar el repositorio (esto se hace una vez por PC, osea, baja toda la estructura actual del repositorio): 
+
+$ git clone git@github.com:duckmanito/AlgebraBienGracias.git
+
+Cuando se hace un cambio y se quiere subir al repositorio:
+
+$ git add .
+$ git commit -m "MENSAJE DESCRIPTIVO DE LO QUE SE CAMBIO"
+$ git push
+
+SIEMPRE antes de empezar a laburar, hagan:
+
+$ git pull
+
+Esto actualiza los cambios de sus compañeros, asi no nos pisamos :)
+
+
+
